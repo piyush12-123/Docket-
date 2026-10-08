@@ -1,0 +1,16 @@
+{
+  "name": "docket",
+  "version": "1.0.0",
+  "description": "Docket — AI-Powered Document Intelligence Vault",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev:server & npm run dev:client",
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "build": "npm run build --prefix client",
+    "test": "npm run test:server && npm run test:client",
+    "test:client": "npm run test --prefix client",
+    "test:server": "npm run test --prefix server",
+    "install:all": "npm install --prefix client && npm install --prefix server"
+  }
+}

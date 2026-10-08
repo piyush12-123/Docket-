@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment files and secrets
+.env*
+!.env.example
+!.env.*.example
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local secret files/folders (add only if your project uses these)
+secrets/
+credentials.json
+credentials.*.json
+
+# Build output and test coverage
+dist/
+coverage/
